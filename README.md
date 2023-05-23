@@ -6,9 +6,13 @@ This script enables you to analyze any Twitter account and generate a similar sc
 This is done by frist filling out the required variables 
 
 USER_TO_ANALYZE = 
+
 OAUTH_TOKEN = ''
+
 OAUTH_SECRET = ''
+
 CONSUMER_KEY = ''
+
 CONSUMER_SECRET = ''
 
 Once you have created a twitter account you should be able to find the OAUTH and CONSUMER keys on the "Key and Access Tokens" section and find the consumer key and SECRET on the Application setting. Lastly Userto analyze is just the account you want to run throught the program
