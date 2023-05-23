@@ -1,4 +1,4 @@
-# Twitter_Fake_Follwer_Finder
+# Twitter Fake Follwer Detection Model
 This Python script can discover whether someone has purchased fake followers for that account. 
 
 This script enables you to analyze any Twitter account and generate a similar scatter plot visualization of their followers. You can typically tell when someone purchased fake followers for an account when there are solid lines of followers that were created around the same time, as shown in the New York Times article.
