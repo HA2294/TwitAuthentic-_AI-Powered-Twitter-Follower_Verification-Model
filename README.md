@@ -7,10 +7,9 @@ This Python script can discover whether someone has purchased fake followers for
 This script enables you to analyze any Twitter account and generate a scatter plot visualization of their followers. By examining the scatter plot, you can identify solid lines of followers that were created around the same time, indicating the possibility of fake followers, as shown in the New York Times article.
 
 ## Usage
-
+```python
 1. Fill out the required variables in the script:
 
-```python
 USER_TO_ANALYZE = ''
 OAUTH_TOKEN = ''
 OAUTH_SECRET = ''
