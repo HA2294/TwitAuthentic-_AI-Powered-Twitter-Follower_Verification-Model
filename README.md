@@ -1,4 +1,5 @@
-# Twitter Fake Followers Analyzer
+# Twitter Fake Follwer Detection Model
+
 
 This Python script can discover whether someone has purchased fake followers for their Twitter account.
 
