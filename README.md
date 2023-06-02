@@ -30,17 +30,18 @@ Run the script, and it will take care of the remaining tasks.
 
 ```
 
-** Note: 
+#### Note: 
 
-If you are analyzing an account with a large number of followers (e.g., hundreds of thousands or more), please be aware that running the script may require some time due to adherence to the Twitter API's usage limitations. A progress bar will keep you informed about the analysis progress.
+  If you are analyzing an account with a large number of followers (e.g., hundreds of thousands or more), please be aware that running the script may require some time due to adherence to the Twitter API's usage limitations. A progress bar will  keep you informed about the analysis progress.
 
-Upon completion, the script will save an image in the directory where you executed it. This image will contain the scatter plot visualization for the specified Twitter account.
+  Upon completion, the script will save an image in the directory where you executed it. This image will contain the scatter plot visualization for the specified Twitter account.
 
-Requirements
+## Requirements
 Python
 Python libraries: tweepy, matplotlib, numpy
-License
+
+## License
 This project is licensed under the MIT License. You are free to use, modify, and distribute the codebase for personal or commercial purposes.
 
-Contact
+## Contact
 If you have any questions or suggestions regarding the Twitter Fake Followers Analyzer, please feel free to contact us at your-email@example.com. We appreciate your interest and look forward to hearing from you.
