@@ -30,7 +30,7 @@ Run the script, and it will take care of the remaining tasks.
 
 ```
 
-#### Note: 
+### Note: 
 
   If you are analyzing an account with a large number of followers (e.g., hundreds of thousands or more), please be aware that running the script may require some time due to adherence to the Twitter API's usage limitations. A progress bar will  keep you informed about the analysis progress.
 
