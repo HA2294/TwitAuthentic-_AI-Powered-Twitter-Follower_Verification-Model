@@ -1,25 +1,30 @@
-# Twitter Fake Follwer Detection Model
-This Python script can discover whether someone has purchased fake followers for that account. 
+# Twitter Fake Followers Analyzer
 
-This script enables you to analyze any Twitter account and generate a similar scatter plot visualization of their followers. You can typically tell when someone purchased fake followers for an account when there are solid lines of followers that were created around the same time, as shown in the New York Times article.
+This Python script can discover whether someone has purchased fake followers for their Twitter account.
 
-This is done by frist filling out the required variables 
+## Description
 
-USER_TO_ANALYZE = 
+This script enables you to analyze any Twitter account and generate a scatter plot visualization of their followers. By examining the scatter plot, you can identify solid lines of followers that were created around the same time, indicating the possibility of fake followers, as shown in the New York Times article.
 
+## Usage
+
+1. Fill out the required variables in the script:
+
+```python
+USER_TO_ANALYZE = ''
 OAUTH_TOKEN = ''
-
 OAUTH_SECRET = ''
-
 CONSUMER_KEY = ''
-
 CONSUMER_SECRET = ''
 
-Once you have created a twitter account you should be able to find the OAUTH and CONSUMER keys on the "Key and Access Tokens" section and find the consumer key and SECRET on the Application setting. Lastly Userto analyze is just the account you want to run throught the program
+- **USER_TO_ANALYZE:** The Twitter account username you want to analyze.
+- **OAUTH_TOKEN:**  The OAuth token obtained from Twitter for authentication.
+- **OAUTH_SECRET:** The OAuth secret obtained from Twitter for authentication.
+- **CONSUMER_KEY:** The consumer key obtained from Twitter for authentication.
+- **CONSUMER_SECRET:** The consumer secret obtained from Twitter for authentication.
 
-Once you have provided values for the five variables, the following script will take care of the remaining tasks.
+1. Fill out the required variables in the script: 
 
-If you are analyzing an account with a large number of followers, such as hundreds of thousands or more, please note that running the script may require some time due to adherence to the Twitter API's usage limitations. A progress bar will keep you informed about the analysis progress.
+2. Once you have created a Twitter account and obtained the OAuth and consumer keys, replace the empty strings with the corresponding values.
 
-Upon completion, the script will save an image in the directory where you executed it. This image will contain the scatter plot visualization for the specified Twitter account.
-
+Run the script, and it will take care of the remaining tasks.
