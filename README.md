@@ -27,4 +27,5 @@ CONSUMER_SECRET = ''
 2. Once you have created a Twitter account and obtained the OAuth and consumer keys, replace the empty strings with the corresponding values.
 
 Run the script, and it will take care of the remaining tasks.
-'''
+
+''' python
