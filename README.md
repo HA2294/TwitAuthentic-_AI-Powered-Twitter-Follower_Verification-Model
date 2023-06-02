@@ -32,7 +32,6 @@ Run the script, and it will take care of the remaining tasks.
 ```
 
 ### Note
-
   If you are analyzing an account with a large number of followers (e.g., hundreds of thousands or more), please be aware that running the script may require some time due to adherence to the Twitter API's usage limitations. A progress bar will  keep you informed about the analysis progress.
 
   Upon completion, the script will save an image in the directory where you executed it. This image will contain the scatter plot visualization for the specified Twitter account.
