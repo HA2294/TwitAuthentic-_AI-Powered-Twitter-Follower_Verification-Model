@@ -1,4 +1,4 @@
-# Twitter Follower Verification Model
+# TwitAuthentic: Twitter Follower Verification Model
 
 This Python script can discover whether someone has purchased fake followers for their Twitter account.
 
